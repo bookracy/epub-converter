@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/bookracy-convertor.git"
+    "url": "git+https://github.com/bookracy/epub-convertor.git"
   },
   "keywords": [
     "epub",
@@ -40,10 +40,10 @@
     "HTML",
     "JavaScript"
   ],
-  "author": "Your Name",
+  "author": "rdwxth",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yourusername/bookracy-convertor/issues"
+    "url": "https://github.com/bookracy/epub-converter/issues"
   },
-  "homepage": "https://github.com/yourusername/bookracy-convertor#readme"
+  "homepage": "https://github.com/bookracy/epub-converter#readme"
 }
