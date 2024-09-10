@@ -1,26 +1,49 @@
 {
-  "name": "my-vite-project",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "bookracy-convertor",
+  "version": "1.0.0",
+  "description": "A tool to convert EPUB files to PDF using jsPDF",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "@types/dom-parser": "^0.1.4",
-    "@types/html-to-text": "^9.0.4",
-    "@types/jsdom": "^21.1.7",
-    "@types/xmldom": "^0.1.34",
-    "typescript": "^5.5.4",
-    "vite": "^5.4.3"
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
     "dom-parser": "^1.1.5",
     "html-to-text": "^9.0.5",
     "jspdf": "^2.5.1",
-    "my-vite-project": "file:",
+    "jszip": "^3.7.1",
     "xmldom": "^0.6.0"
-  }
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.3",
+    "eslint": "^8.48.0",
+    "@types/xmldom": "^0.1.34"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/bookracy-convertor.git"
+  },
+  "keywords": [
+    "epub",
+    "pdf",
+    "convert",
+    "jsPDF",
+    "EPUB",
+    "HTML",
+    "JavaScript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/bookracy-convertor/issues"
+  },
+  "homepage": "https://github.com/yourusername/bookracy-convertor#readme"
 }
